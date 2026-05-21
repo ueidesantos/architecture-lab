@@ -1,12 +1,37 @@
-[Bb]in/
-[Oo]bj/
-.vs/
-.idea/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform.lock.hcl
+tfplan
+
+# VS Code
 .vscode/
-node_modules/
-temp_lab/
-._tmp_clone/
+*.code-workspace
+
+# C# / .NET
+bin/
+obj/
+*.user
+*.csproj.user
+*.suo
+*.sln.user
+.vs/
+
+# Build outputs
+dist/
+build/
+*.dll
+*.exe
+*.pdb
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
