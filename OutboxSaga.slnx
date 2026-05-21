@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/OutboxSaga.Infrastructure/">
+    <File Path="src/OutboxSaga.Infrastructure/.gitigonre" />
+    <File Path="src/OutboxSaga.Infrastructure/down.ps1" />
+    <File Path="src/OutboxSaga.Infrastructure/main.tf" />
+    <File Path="src/OutboxSaga.Infrastructure/outputs.tf" />
+    <File Path="src/OutboxSaga.Infrastructure/up.ps1" />
+    <File Path="src/OutboxSaga.Infrastructure/variables.tf" />
+  </Folder>
+  <Folder Name="/OutboxSaga.Messaging/">
+    <Project Path="src/OutboxSaga.Messaging/OutboxSaga.Messaging.csproj" />
+  </Folder>
+  <Folder Name="/OutboxSaga.Order/">
+    <Project Path="src/OutboxSaga.Order/OutboxSaga.Order.Api/OutboxSaga.Orders.Api.csproj" />
+    <Project Path="src/OutboxSaga.Order/OutboxSaga.Order.Application/OutboxSaga.Orders.Application.csproj" />
+    <Project Path="src/OutboxSaga.Order/OutboxSaga.Order.Domain/OutboxSaga.Orders.Domain.csproj" />
+    <Project Path="src/OutboxSaga.Order/OutboxSaga.Order.Infrastructure/OutboxSaga.Orders.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/OutboxSaga.Payment/">
+    <Project Path="src/OutboxSaga.Payment/OutboxSaga.Payment.Domain/OutboxSaga.Payment.Domain.csproj" />
+    <Project Path="src/OutboxSaga.Payment/OutboxSaga.Payment.Application/OutboxSaga.Payment.Application.csproj" />
+    <Project Path="src/OutboxSaga.Payment/OutboxSaga.Payment.Infrastructure/OutboxSaga.Payment.Infrastructure.csproj" />
+    <Project Path="src/OutboxSaga.Payment/OutboxSaga.Payment.Worker/OutboxSaga.Payment.Worker.csproj" />
+  </Folder>
+  <Folder Name="/OutboxSaga.Shipping/">
+    <Project Path="src/OutboxSaga.Shipping/OutboxSaga.Shipping.Domain/OutboxSaga.Shipping.Domain.csproj" />
+    <Project Path="src/OutboxSaga.Shipping/OutboxSaga.Shipping.Application/OutboxSaga.Shipping.Application.csproj" />
+    <Project Path="src/OutboxSaga.Shipping/OutboxSaga.Shipping.Infrastructure/OutboxSaga.Shipping.Infrastructure.csproj" />
+    <Project Path="src/OutboxSaga.Shipping/OutboxSaga.Shipping.Worker/OutboxSaga.Shipping.Worker.csproj" />
+  </Folder>
+</Solution>
