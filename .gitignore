@@ -1,0 +1,12 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+node_modules/
+temp_lab/
+._tmp_clone/
